@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB_uel=process.env.DB_uel
+const DB_uel="mongodb+srv://santonunaskar22:smritinaskar1@loginsignup.x0kzsof.mongodb.net/LoginSignup?retryWrites=true&w=majority"
 const mongoURL =DB_uel;
 mongoose.connect(mongoURL);
 
