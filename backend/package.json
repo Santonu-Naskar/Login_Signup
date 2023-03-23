@@ -4,7 +4,6 @@
   "description": "enotebook is a multiuser todo app which store data in cloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "",
