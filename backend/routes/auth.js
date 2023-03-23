@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const fetchuser=require("../middleware/fetchuser.js")
 const bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
-const jwt_secret =process.env.jwt_secret;
+const jwt_secret =process.env.jwt_secrets;
 
 
 //  Router1: Create User Post:/create
