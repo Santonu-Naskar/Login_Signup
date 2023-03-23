@@ -1,3 +1,4 @@
+require('dotenv').config()
 const mongoose = require('mongoose');
 const DB_uel=process.env.Mdb_Url;
 const mongoURL =DB_uel;
