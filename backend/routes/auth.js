@@ -99,7 +99,7 @@ router.post('/getuser', fetchuser, async (req, res) => {
         
     } catch (error) {
         console.error(error.message)
-        res.status(500).send("some error occured")
+        res.status(500).send(error.message)
     }
 })
 module.exports = router;
